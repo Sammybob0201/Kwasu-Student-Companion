@@ -1,0 +1,2179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>KWASU Students Companion</title>
+    <link rel="shortcut icon" href="aY7TN.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#" class="nav-logo">
+          <img src="kwasu new.png" alt="KWASU Students Companion" />
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#dashboard">Dashboard</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contributors">Contributors</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <a href="#" class="nav-button">Get Started</a>
+
+        <button class="menu-toggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- ================================
+     HERO SECTION
+================================ -->
+
+    <section class="hero" id="home">
+      <div class="hero-container">
+        <!-- HERO TEXT -->
+        <div class="hero-content">
+          <span class="hero-label">
+            YOUR CAMPUS. YOUR TOOLS. YOUR COMPANION.
+          </span>
+
+          <h1>
+            Everything You Need.
+            <span>One Student Companion.</span>
+          </h1>
+
+          <p class="hero-description">
+            KWASU Student Companion is a student-focused platform designed to
+            bring academic tools, campus information, useful resources and
+            everyday student utilities together in one convenient place.
+          </p>
+
+          <p class="hero-university">
+            Built for students of
+            <strong>Kwara State University, Malete.</strong>
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#features" class="hero-btn primary-btn">
+              Explore Features
+              <span>→</span>
+            </a>
+
+            <a href="#about" class="hero-btn secondary-btn">
+              Learn About KWASU
+            </a>
+          </div>
+
+          <!-- LIVE INFORMATION -->
+          <div class="hero-info-grid">
+            <!-- WEATHER -->
+            <div class="info-card weather-card">
+              <div class="info-card-top">
+                <span class="info-icon">🌤️</span>
+
+                <div>
+                  <span class="info-label">CURRENT WEATHER</span>
+                  <span class="info-location">Malete, Kwara State</span>
+                </div>
+              </div>
+
+              <div class="weather-main">
+                <span id="weather-icon">☁️</span>
+
+                <div>
+                  <strong id="weather-temperature">--°C</strong>
+                  <span id="weather-condition">Loading weather...</span>
+                </div>
+              </div>
+
+              <div class="weather-details">
+                <span> 💨 <strong id="weather-wind">--</strong> km/h </span>
+
+                <span> 💧 <strong id="weather-humidity">--</strong>% </span>
+              </div>
+            </div>
+
+            <!-- CLOCK -->
+            <div class="info-card clock-card">
+              <div class="info-card-top">
+                <span class="info-icon">🕐</span>
+
+                <div>
+                  <span class="info-label">LOCAL TIME</span>
+                  <span class="info-location">Malete, Nigeria</span>
+                </div>
+              </div>
+
+              <div class="clock-display" id="live-clock">00:00:00</div>
+
+              <div class="clock-date" id="live-date">Loading date...</div>
+
+              <div class="clock-status">
+                <span class="status-dot"></span>
+                Live • Africa/Lagos
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- MAP + KWASU INFORMATION -->
+        <div class="hero-right">
+          <!-- MAP -->
+          <div class="map-card">
+            <div class="map-header">
+              <div>
+                <span class="map-label">CAMPUS LOCATION</span>
+                <h3>KWASU • Malete</h3>
+              </div>
+
+              <span class="map-pin">📍</span>
+            </div>
+
+            <div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252399.19488432605!2d4.183850786718751!3d8.716465800000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1036594555ef8567%3A0xf5a09414d7b223d4!2sKwara%20State%20University%2C%20Malete!5e0!3m2!1sen!2sng!4v1790760381124!5m2!1sen!2sng"
+                width="100%"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+              ></iframe>
+            </div>
+
+            <div class="map-footer">
+              <span>📍 Kwara State University</span>
+              <span>Malete, Kwara State</span>
+            </div>
+          </div>
+
+          <!-- KWASU INFORMATION -->
+          <div class="kwasu-card">
+            <div class="kwasu-card-heading">
+              <span class="kwasu-mini-icon">🎓</span>
+
+              <div>
+                <span class="info-label">ABOUT KWASU</span>
+                <h3>The Green University</h3>
+              </div>
+            </div>
+
+            <p>
+              Kwara State University is a university located in Malete, Kwara
+              State, Nigeria. The main campus brings together academic
+              faculties, learning facilities, student spaces and other resources
+              that support university life.
+            </p>
+
+            <div class="kwasu-highlights">
+              <div>
+                <strong>2009</strong>
+                <span>Established</span>
+              </div>
+
+              <div>
+                <strong>Malete</strong>
+                <span>Main Campus</span>
+              </div>
+
+              <div>
+                <strong>KWASU</strong>
+                <span>Green University</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================
+     ACADEMIC HUB SECTION
+================================= -->
+
+    <section class="academic-section" id="academic">
+      <div class="academic-container">
+        <!-- SECTION INTRO -->
+        <div class="section-heading academic-heading">
+          <span class="section-label"> ACADEMIC HUB </span>
+
+          <h2>
+            Stay on top of your
+            <span>academic journey.</span>
+          </h2>
+
+          <p>
+            Manage your semester, explore your courses, select the subjects
+            you're taking and calculate your GPA and CGPA with simple
+            student-focused tools.
+          </p>
+        </div>
+
+        <!-- =========================
+         SEMESTER OVERVIEW
+    ========================== -->
+
+        <div class="semester-card">
+          <div class="semester-main">
+            <span class="academic-small-label"> CURRENT ACADEMIC SESSION </span>
+
+            <h3>2026 / 2027</h3>
+
+            <p>
+              Your academic information, courses and results can all be
+              organized from one place.
+            </p>
+          </div>
+
+          <div class="semester-details">
+            <div class="semester-detail">
+              <span>SESSION</span>
+              <strong>2026 / 2027</strong>
+            </div>
+
+            <div class="semester-detail">
+              <span>SEMESTER</span>
+              <strong>Second Semester</strong>
+            </div>
+
+            <div class="semester-detail">
+              <span>LEVEL</span>
+              <strong>Undergraduate</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- =========================
+         COURSE EXPLORER
+    ========================== -->
+
+        <div class="course-section">
+          <div class="course-section-heading">
+            <div>
+              <span class="section-label"> COURSE EXPLORER </span>
+
+              <h3>Find and select your courses.</h3>
+            </div>
+
+            <p>
+              Choose your programme, level and semester to view the courses you
+              want to include in your academic record.
+            </p>
+          </div>
+
+          <!-- COURSE FILTERS -->
+
+          <div class="course-filters">
+            <div class="filter-group">
+              <label for="programme-select"> Programme </label>
+
+              <select id="programme-select">
+                <option value="">Select your programme</option>
+
+                <optgroup label="Agriculture">
+                  <option value="animal-production">Animal Production</option>
+
+                  <option value="agricultural-economics">
+                    Agricultural Economics
+                  </option>
+
+                  <option value="crop-production">Crop Production</option>
+
+                  <option value="food-science">
+                    Food Science and Technology
+                  </option>
+                </optgroup>
+
+                <optgroup label="Arts">
+                  <option value="english">English</option>
+
+                  <option value="linguistics">Linguistics</option>
+
+                  <option value="history">
+                    History and Diplomatic Studies
+                  </option>
+
+                  <option value="islamic-studies">Islamic Studies</option>
+
+                  <option value="performing-arts">Performing Arts</option>
+
+                  <option value="fine-applied-arts">
+                    Fine and Applied Arts
+                  </option>
+                </optgroup>
+
+                <optgroup label="Education">
+                  <option value="business-education">Business Education</option>
+
+                  <option value="special-education">Special Education</option>
+
+                  <option value="human-kinetics">
+                    Human Kinetics and Health Education
+                  </option>
+
+                  <option value="early-childhood">
+                    Early Childhood and Primary Education
+                  </option>
+                </optgroup>
+
+                <optgroup label="Engineering & Technology">
+                  <option value="mechanical-engineering">
+                    Mechanical Engineering
+                  </option>
+
+                  <option value="civil-engineering">
+                    Civil and Environmental Engineering
+                  </option>
+
+                  <option value="electrical-engineering">
+                    Electrical and Computer Engineering
+                  </option>
+
+                  <option value="materials-engineering">
+                    Materials Science and Engineering
+                  </option>
+
+                  <option value="aeronautical-engineering">
+                    Aeronautical and Astronautical Engineering
+                  </option>
+                </optgroup>
+
+                <optgroup label="ICT">
+                  <option value="computer-science">Computer Science</option>
+
+                  <option value="library-information">
+                    Library and Information Science
+                  </option>
+
+                  <option value="mass-communication">Mass Communication</option>
+                </optgroup>
+
+                <optgroup label="Management & Social Sciences">
+                  <option value="accounting">Accounting</option>
+
+                  <option value="finance">Finance</option>
+
+                  <option value="economics">Economics</option>
+
+                  <option value="business-administration">
+                    Business Administration
+                  </option>
+
+                  <option value="entrepreneurship">Entrepreneurship</option>
+
+                  <option value="political-science">Political Science</option>
+
+                  <option value="public-administration">
+                    Public Administration
+                  </option>
+
+                  <option value="tourism">
+                    Tourism and Hospitality Management
+                  </option>
+                </optgroup>
+
+                <optgroup label="Pure & Applied Sciences">
+                  <option value="microbiology">Microbiology</option>
+
+                  <option value="biochemistry">Biochemistry</option>
+
+                  <option value="zoology">Zoology</option>
+
+                  <option value="chemistry">Chemistry</option>
+
+                  <option value="industrial-chemistry">
+                    Industrial Chemistry
+                  </option>
+
+                  <option value="mathematics">Mathematics</option>
+
+                  <option value="statistics">Statistics</option>
+
+                  <option value="geology">Geology and Mineral Science</option>
+                </optgroup>
+
+                <optgroup label="Law">
+                  <option value="common-law">Common Law</option>
+
+                  <option value="common-islamic-law">
+                    Common Law and Islamic Law
+                  </option>
+                </optgroup>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label for="level-select"> Level </label>
+
+              <select id="level-select">
+                <option value="">Select level</option>
+
+                <option value="100">100 Level</option>
+
+                <option value="200">200 Level</option>
+
+                <option value="300">300 Level</option>
+
+                <option value="400">400 Level</option>
+
+                <option value="500">500 Level</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label for="semester-select"> Semester </label>
+
+              <select id="semester-select">
+                <option value="">Select semester</option>
+
+                <option value="first">First Semester</option>
+
+                <option value="second">Second Semester</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- COURSE SEARCH -->
+
+          <div class="course-search">
+            <span>⌕</span>
+
+            <input
+              type="text"
+              id="course-search"
+              placeholder="Search for a course..."
+            />
+          </div>
+
+          <!-- COURSE RESULTS -->
+
+          <div class="course-results" id="course-results">
+            <div class="course-empty">
+              <div class="course-empty-icon">📚</div>
+
+              <h4>Select your programme to get started</h4>
+
+              <p>
+                Choose your programme, level and semester above. Your available
+                courses will appear here.
+              </p>
+            </div>
+          </div>
+
+          <!-- SELECTED COURSE SUMMARY -->
+
+          <div class="selected-courses-bar" id="selected-courses-bar">
+            <div>
+              <span> SELECTED COURSES </span>
+
+              <strong id="selected-course-count"> 0 courses </strong>
+            </div>
+
+            <div>
+              <span> TOTAL UNITS </span>
+
+              <strong id="selected-unit-count"> 0 units </strong>
+            </div>
+
+            <button type="button" id="use-courses-btn">
+              Use in CGPA Calculator →
+            </button>
+          </div>
+        </div>
+
+        <!-- =========================
+         CALCULATORS
+    ========================== -->
+
+        <div class="calculator-section">
+          <div class="calculator-heading">
+            <span class="section-label"> STUDENT CALCULATORS </span>
+
+            <h3>Calculate it. Understand it.</h3>
+
+            <p>
+              Use the normal calculator for everyday academic calculations, or
+              use the CGPA calculator to understand your semester performance.
+            </p>
+          </div>
+
+          <div class="calculator-grid">
+            <!-- =====================
+             NORMAL CALCULATOR
+        ====================== -->
+
+            <div class="calculator-card">
+              <div class="calculator-card-header">
+                <div>
+                  <span> DIGITAL CALCULATOR </span>
+
+                  <h4>Quick calculations</h4>
+                </div>
+
+                <span class="calculator-icon"> + </span>
+              </div>
+
+              <p class="calculator-description">
+                Perform quick calculations for assignments, coursework,
+                practicals and everyday student tasks.
+              </p>
+
+              <div class="digital-calculator">
+                <div class="calculator-display" id="calculator-display">0</div>
+
+                <div class="calculator-buttons">
+                  <button data-calculator="clear">AC</button>
+
+                  <button data-calculator="sign">±</button>
+
+                  <button data-calculator="percent">%</button>
+
+                  <button
+                    class="operator"
+                    data-calculator="operator"
+                    data-value="/"
+                  >
+                    ÷
+                  </button>
+
+                  <button data-calculator="number" data-value="7">7</button>
+
+                  <button data-calculator="number" data-value="8">8</button>
+
+                  <button data-calculator="number" data-value="9">9</button>
+
+                  <button
+                    class="operator"
+                    data-calculator="operator"
+                    data-value="*"
+                  >
+                    ×
+                  </button>
+
+                  <button data-calculator="number" data-value="4">4</button>
+
+                  <button data-calculator="number" data-value="5">5</button>
+
+                  <button data-calculator="number" data-value="6">6</button>
+
+                  <button
+                    class="operator"
+                    data-calculator="operator"
+                    data-value="-"
+                  >
+                    −
+                  </button>
+
+                  <button data-calculator="number" data-value="1">1</button>
+
+                  <button data-calculator="number" data-value="2">2</button>
+
+                  <button data-calculator="number" data-value="3">3</button>
+
+                  <button
+                    class="operator"
+                    data-calculator="operator"
+                    data-value="+"
+                  >
+                    +
+                  </button>
+
+                  <button class="zero" data-calculator="number" data-value="0">
+                    0
+                  </button>
+
+                  <button data-calculator="decimal">.</button>
+
+                  <button class="equals" data-calculator="equals">=</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- =====================
+             CGPA CALCULATOR
+        ====================== -->
+
+            <div class="calculator-card cgpa-card">
+              <div class="calculator-card-header">
+                <div>
+                  <span> CGPA CALCULATOR </span>
+
+                  <h4>Track your academic performance</h4>
+                </div>
+
+                <span class="calculator-icon"> % </span>
+              </div>
+
+              <p class="calculator-description">
+                Add your courses, credit units and grades to calculate your GPA
+                and keep track of your academic performance.
+              </p>
+
+              <!-- CGPA TABLE -->
+
+              <div class="cgpa-table-wrapper">
+                <div class="cgpa-table-header">
+                  <span>COURSE</span>
+                  <span>UNIT</span>
+                  <span>GRADE</span>
+                  <span></span>
+                </div>
+
+                <div id="cgpa-rows" class="cgpa-rows">
+                  <div class="cgpa-row">
+                    <input
+                      type="text"
+                      placeholder="Course code"
+                      class="cgpa-course"
+                    />
+
+                    <input
+                      type="number"
+                      min="1"
+                      max="10"
+                      placeholder="3"
+                      class="cgpa-unit"
+                    />
+
+                    <select class="cgpa-grade">
+                      <option value="">Grade</option>
+
+                      <option value="5">A</option>
+
+                      <option value="4">B</option>
+
+                      <option value="3">C</option>
+
+                      <option value="2">D</option>
+
+                      <option value="1">E</option>
+
+                      <option value="0">F</option>
+                    </select>
+
+                    <button type="button" class="remove-cgpa-row">×</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cgpa-actions">
+                <button type="button" id="add-cgpa-row" class="add-course-btn">
+                  + Add Course
+                </button>
+
+                <button
+                  type="button"
+                  id="calculate-cgpa"
+                  class="calculate-cgpa-btn"
+                >
+                  Calculate GPA
+                </button>
+              </div>
+
+              <!-- RESULT -->
+
+              <div class="cgpa-result">
+                <div>
+                  <span> TOTAL UNITS </span>
+
+                  <strong id="cgpa-total-units"> 0 </strong>
+                </div>
+
+                <div>
+                  <span> QUALITY POINTS </span>
+
+                  <strong id="cgpa-quality-points"> 0 </strong>
+                </div>
+
+                <div class="cgpa-main-result">
+                  <span> GPA </span>
+
+                  <strong id="cgpa-result"> 0.00 </strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- =========================
+         HOW CGPA WORKS
+    ========================== -->
+
+        <div class="cgpa-explanation">
+          <div class="cgpa-explanation-content">
+            <span class="section-label"> UNDERSTAND YOUR RESULT </span>
+
+            <h3>How does your GPA work?</h3>
+
+            <p>
+              Your GPA is based on the credit units of your courses and the
+              grade points you earn in each course.
+            </p>
+          </div>
+
+          <div class="cgpa-steps">
+            <div class="cgpa-step">
+              <span>01</span>
+
+              <div>
+                <h4>Grade Point × Unit</h4>
+
+                <p>
+                  Multiply the grade point earned in a course by the credit
+                  units of that course.
+                </p>
+              </div>
+            </div>
+
+            <div class="cgpa-step">
+              <span>02</span>
+
+              <div>
+                <h4>Add Quality Points</h4>
+
+                <p>
+                  Add the quality points from all the courses you included in
+                  the semester.
+                </p>
+              </div>
+            </div>
+
+            <div class="cgpa-step">
+              <span>03</span>
+
+              <div>
+                <h4>Divide by Total Units</h4>
+
+                <p>
+                  Divide your total quality points by your total credit units to
+                  get your GPA.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================
+     CAMPUS GUIDE SECTION
+================================= -->
+
+    <section class="campus-section" id="campus-guide">
+      <div class="campus-container">
+        <!-- SECTION HEADING -->
+        <div class="campus-heading">
+          <span class="section-label"> EXPLORE KWASU </span>
+
+          <h2>
+            Find Your Way Around
+            <span>KWASU Campus.</span>
+          </h2>
+
+          <p>
+            Find important places, academic facilities and student services
+            around the KWASU Malete campus without having to search everywhere.
+          </p>
+        </div>
+
+        <!-- SEARCH -->
+        <div class="campus-search-box">
+          <span class="campus-search-icon">⌕</span>
+
+          <input
+            type="text"
+            id="campus-search"
+            placeholder="Search for a place, facility or service..."
+            autocomplete="off"
+          />
+
+          <button id="clear-campus-search" type="button">Clear</button>
+        </div>
+
+        <!-- CATEGORY FILTERS -->
+        <div class="campus-filters">
+          <button
+            class="campus-filter active"
+            data-category="all"
+            type="button"
+          >
+            All Places
+          </button>
+
+          <button class="campus-filter" data-category="academic" type="button">
+            🎓 Academic
+          </button>
+
+          <button class="campus-filter" data-category="student" type="button">
+            👥 Student Life
+          </button>
+
+          <button class="campus-filter" data-category="services" type="button">
+            🛠️ Services
+          </button>
+
+          <button
+            class="campus-filter"
+            data-category="recreation"
+            type="button"
+          >
+            ⚽ Recreation
+          </button>
+        </div>
+
+        <!-- MAIN CAMPUS GUIDE -->
+        <div class="campus-guide-grid">
+          <!-- LOCATION LIST -->
+          <div class="campus-locations-panel">
+            <div class="campus-panel-header">
+              <div>
+                <span class="campus-panel-label"> CAMPUS LOCATIONS </span>
+
+                <h3>Places you can find</h3>
+              </div>
+
+              <span id="campus-result-count"> 0 places </span>
+            </div>
+
+            <div id="campus-location-list" class="campus-location-list">
+              <!-- Locations generated by script.js -->
+            </div>
+
+            <div id="campus-no-results" class="campus-no-results" hidden>
+              <span>🔎</span>
+
+              <h4>No location found</h4>
+
+              <p>
+                Try searching for another place or choose a different category.
+              </p>
+            </div>
+          </div>
+
+          <!-- MAP -->
+          <div class="campus-map-panel">
+            <div class="campus-map-header">
+              <div>
+                <span class="campus-panel-label"> INTERACTIVE MAP </span>
+
+                <h3 id="selected-location-name">KWASU Main Campus</h3>
+              </div>
+
+              <span class="campus-map-status">
+                <span></span>
+                Live Map
+              </span>
+            </div>
+
+            <div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252399.19488432605!2d4.183850786718751!3d8.716465800000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1036594555ef8567%3A0xf5a09414d7b223d4!2sKwara%20State%20University%2C%20Malete!5e0!3m2!1sen!2sng!4v1790760381124!5m2!1sen!2sng"
+                width="100%"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+              ></iframe>
+            </div>
+
+            <!-- SELECTED LOCATION -->
+            <div class="selected-location-card">
+              <div class="selected-location-icon" id="selected-location-icon">
+                🎓
+              </div>
+
+              <div class="selected-location-info">
+                <span
+                  class="selected-location-category"
+                  id="selected-location-category"
+                >
+                  KWASU CAMPUS
+                </span>
+
+                <h4 id="selected-location-title">Kwara State University</h4>
+
+                <p id="selected-location-description">
+                  Main campus of Kwara State University in Malete, Kwara State.
+                </p>
+
+                <div class="selected-location-meta">
+                  <span id="selected-location-area">
+                    📍 Malete, Kwara State
+                  </span>
+                </div>
+              </div>
+
+              <a
+                href="#"
+                id="campus-directions"
+                class="campus-directions-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Get Directions →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================
+     FOCUS STUDY TIMER
+================================= -->
+
+    <section class="focus-section" id="study-timer">
+      <div class="focus-container">
+        <div class="focus-heading">
+          <span class="section-label"> STAY FOCUSED </span>
+
+          <h2>
+            Study Smarter with a
+            <span>Focus Timer.</span>
+          </h2>
+
+          <p>
+            Choose a study session, focus on your work and keep track of the
+            time you spend studying.
+          </p>
+        </div>
+
+        <div class="focus-grid">
+          <!-- TIMER -->
+          <div class="focus-timer-card">
+            <div class="timer-top">
+              <div>
+                <span class="timer-label"> CURRENT SESSION </span>
+
+                <h3 id="timer-mode">Focus Session</h3>
+              </div>
+
+              <span class="timer-status" id="timer-status"> Ready </span>
+            </div>
+
+            <!-- PROGRESS -->
+            <div class="timer-progress">
+              <div class="timer-progress-bar" id="timer-progress-bar"></div>
+            </div>
+
+            <!-- TIME -->
+            <div class="timer-display" id="timer-display">25:00</div>
+
+            <p class="timer-message" id="timer-message">
+              Ready when you are. Start your study session.
+            </p>
+
+            <!-- CONTROLS -->
+            <div class="timer-controls">
+              <button type="button" class="timer-main-btn" id="timer-start">
+                Start Focus
+              </button>
+
+              <button
+                type="button"
+                class="timer-secondary-btn"
+                id="timer-reset"
+              >
+                Reset
+              </button>
+            </div>
+
+            <!-- PRESETS -->
+            <div class="timer-presets">
+              <button
+                type="button"
+                class="timer-preset active"
+                data-minutes="25"
+              >
+                <strong>25</strong>
+                <span>min</span>
+              </button>
+
+              <button type="button" class="timer-preset" data-minutes="50">
+                <strong>50</strong>
+                <span>min</span>
+              </button>
+
+              <button type="button" class="timer-preset" data-minutes="90">
+                <strong>90</strong>
+                <span>min</span>
+              </button>
+            </div>
+
+            <!-- CUSTOM TIME -->
+            <div class="custom-timer">
+              <label for="custom-minutes"> Custom session </label>
+
+              <div class="custom-timer-input">
+                <input
+                  type="number"
+                  id="custom-minutes"
+                  min="1"
+                  max="180"
+                  placeholder="Minutes"
+                />
+
+                <button type="button" id="set-custom-timer">Set</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- STATS -->
+          <div class="focus-stats-card">
+            <div class="focus-stats-heading">
+              <span class="stats-icon"> 📊 </span>
+
+              <div>
+                <span class="timer-label"> TODAY'S PROGRESS </span>
+
+                <h3>Your Focus</h3>
+              </div>
+            </div>
+
+            <div class="focus-stat-main">
+              <strong id="today-focus-time"> 0h 0m </strong>
+
+              <span> Total focus time today </span>
+            </div>
+
+            <div class="focus-stat-grid">
+              <div class="focus-stat">
+                <strong id="completed-sessions"> 0 </strong>
+
+                <span> Sessions completed </span>
+              </div>
+
+              <div class="focus-stat">
+                <strong id="current-session-length"> 25 </strong>
+
+                <span> Current session </span>
+              </div>
+            </div>
+
+            <div class="focus-tip">
+              <span>💡</span>
+
+              <div>
+                <strong> Focus tip </strong>
+
+                <p>
+                  Put your phone away, choose one task and work until the timer
+                  ends.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+     ACADEMIC CALENDAR
+========================= -->
+    <section class="calendar-section" id="academic-calendar">
+      <div class="calendar-container">
+        <div class="calendar-heading">
+          <span class="section-label">PLAN AHEAD</span>
+          <h2>Never Miss an <span>Important Date.</span></h2>
+          <p>
+            Keep track of important academic activities, university events and
+            key dates throughout the academic session.
+          </p>
+        </div>
+
+        <div class="calendar-layout">
+          <!-- CALENDAR -->
+          <div class="calendar-card">
+            <div class="calendar-top">
+              <div>
+                <span class="calendar-label">ACADEMIC CALENDAR</span>
+                <h3 id="calendar-month-year">September 2026</h3>
+              </div>
+
+              <div class="calendar-navigation">
+                <button
+                  type="button"
+                  id="calendar-prev"
+                  aria-label="Previous month"
+                >
+                  ←
+                </button>
+
+                <button type="button" id="calendar-today">Today</button>
+
+                <button
+                  type="button"
+                  id="calendar-next"
+                  aria-label="Next month"
+                >
+                  →
+                </button>
+              </div>
+            </div>
+
+            <div class="calendar-weekdays">
+              <span>Sun</span>
+              <span>Mon</span>
+              <span>Tue</span>
+              <span>Wed</span>
+              <span>Thu</span>
+              <span>Fri</span>
+              <span>Sat</span>
+            </div>
+
+            <div id="calendar-grid" class="calendar-grid">
+              <!-- Calendar days generated by script.js -->
+            </div>
+
+            <div class="calendar-legend">
+              <span>
+                <i class="legend-dot academic"></i>
+                Academic
+              </span>
+
+              <span>
+                <i class="legend-dot university"></i>
+                University
+              </span>
+
+              <span>
+                <i class="legend-dot student"></i>
+                Student
+              </span>
+            </div>
+          </div>
+
+          <!-- EVENT DETAILS -->
+          <div class="calendar-events-card">
+            <div class="calendar-events-header">
+              <div>
+                <span class="calendar-label">SELECTED DATE</span>
+                <h3 id="selected-date-title">Today</h3>
+              </div>
+
+              <span id="selected-event-count" class="event-count">
+                0 Events
+              </span>
+            </div>
+
+            <div id="calendar-event-list" class="calendar-event-list">
+              <div class="calendar-empty-state">
+                <span>📅</span>
+                <h4>No events selected</h4>
+                <p>
+                  Select a date on the calendar to see important activities
+                  scheduled for that day.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+     IMPORTANT CONTACTS
+========================= -->
+    <section class="contacts-section" id="important-contacts">
+      <div class="contacts-container">
+        <div class="contacts-heading">
+          <span class="section-label">GET HELP</span>
+          <h2>Important <span>KWASU Contacts.</span></h2>
+          <p>
+            Quickly find the university offices and support services you may
+            need during your time at KWASU.
+          </p>
+        </div>
+
+        <div class="contacts-search-area">
+          <div class="contacts-search-box">
+            <span>⌕</span>
+            <input
+              type="text"
+              id="contact-search"
+              placeholder="Search contacts, offices or services..."
+              autocomplete="off"
+            />
+            <button type="button" id="clear-contact-search">Clear</button>
+          </div>
+
+          <div class="contact-filters">
+            <button
+              type="button"
+              class="contact-filter active"
+              data-contact-category="all"
+            >
+              All
+            </button>
+
+            <button
+              type="button"
+              class="contact-filter"
+              data-contact-category="academic"
+            >
+              🎓 Academic
+            </button>
+
+            <button
+              type="button"
+              class="contact-filter"
+              data-contact-category="support"
+            >
+              🛠️ Support
+            </button>
+
+            <button
+              type="button"
+              class="contact-filter"
+              data-contact-category="student"
+            >
+              👥 Student Services
+            </button>
+          </div>
+        </div>
+
+        <div class="contacts-results-header">
+          <div>
+            <span class="contacts-results-label">CONTACT DIRECTORY</span>
+            <h3>Who can help?</h3>
+          </div>
+
+          <span id="contact-result-count">0 contacts</span>
+        </div>
+
+        <div id="contacts-grid" class="contacts-grid"></div>
+
+        <div id="contacts-no-results" class="contacts-no-results" hidden>
+          <span>🔎</span>
+          <h4>No contact found</h4>
+          <p>
+            Try searching for another office or choose a different category.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+     FACULTY & DEPARTMENT DIRECTORY
+========================= -->
+    <section class="directory-section" id="faculty-directory">
+      <div class="directory-container">
+        <div class="directory-heading">
+          <span class="section-label">KNOW YOUR SCHOOL</span>
+          <h2>Faculty & <span>Department Directory.</span></h2>
+          <p>
+            Find your faculty, explore its departments and see the programmes
+            available across KWASU.
+          </p>
+        </div>
+
+        <div class="directory-controls">
+          <div class="directory-search">
+            <span>⌕</span>
+
+            <input
+              type="text"
+              id="department-search"
+              placeholder="Search faculty, department or programme..."
+              autocomplete="off"
+            />
+
+            <button type="button" id="clear-department-search">Clear</button>
+          </div>
+
+          <div class="faculty-filter-wrapper">
+            <label for="faculty-select">Faculty</label>
+
+            <select id="faculty-select">
+              <option value="all">All Faculties</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="directory-results-header">
+          <div>
+            <span class="directory-results-label">
+              KWASU ACADEMIC DIRECTORY
+            </span>
+
+            <h3 id="directory-results-title">All Faculties</h3>
+          </div>
+
+          <span id="directory-result-count"> 0 departments </span>
+        </div>
+
+        <div id="faculty-directory-grid" class="faculty-directory-grid">
+          <!-- Generated by script.js -->
+        </div>
+
+        <div id="directory-no-results" class="directory-no-results" hidden>
+          <span>🔎</span>
+
+          <h4>No department found</h4>
+
+          <p>Try another search term or choose a different faculty.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= STUDENT BUDGET ================= -->
+    <section class="budget-section" id="student-budget">
+      <div class="budget-container">
+        <div class="budget-heading">
+          <span class="section-label">MANAGE YOUR MONEY</span>
+          <h2>Your Student <span>Budget.</span></h2>
+          <p>
+            Plan your spending, track your expenses and always know how much
+            money you have left.
+          </p>
+        </div>
+
+        <!-- Budget Overview -->
+        <div class="budget-overview">
+          <div class="budget-main-card">
+            <div class="budget-card-top">
+              <div>
+                <span class="budget-small-label">MONTHLY BUDGET</span>
+                <h3 id="budget-total">₦0</h3>
+              </div>
+
+              <div class="budget-icon">₦</div>
+            </div>
+
+            <div class="budget-progress-area">
+              <div class="budget-progress-info">
+                <span id="budget-spent-text">₦0 spent</span>
+                <span id="budget-percent">0%</span>
+              </div>
+
+              <div class="budget-progress">
+                <div id="budget-progress-bar"></div>
+              </div>
+
+              <div class="budget-progress-bottom">
+                <span>
+                  Remaining:
+                  <strong id="budget-remaining">₦0</strong>
+                </span>
+
+                <span>
+                  <strong id="budget-status">Ready to start</strong>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="budget-stat-card">
+            <span class="budget-stat-icon">💸</span>
+            <span class="budget-small-label">TOTAL SPENT</span>
+            <strong id="total-spent">₦0</strong>
+            <p>This month</p>
+          </div>
+
+          <div class="budget-stat-card">
+            <span class="budget-stat-icon">💰</span>
+            <span class="budget-small-label">REMAINING</span>
+            <strong id="total-remaining">₦0</strong>
+            <p>Available to spend</p>
+          </div>
+        </div>
+
+        <!-- Budget Setup + Add Expense -->
+        <div class="budget-action-grid">
+          <!-- Set Budget -->
+          <div class="budget-form-card">
+            <div class="budget-form-heading">
+              <div class="budget-form-icon">💰</div>
+
+              <div>
+                <span class="budget-small-label">MONTHLY PLAN</span>
+                <h3>Set Your Budget</h3>
+              </div>
+            </div>
+
+            <p class="budget-form-description">
+              Enter the amount you plan to spend this month.
+            </p>
+
+            <label for="monthly-budget">Monthly budget</label>
+
+            <div class="budget-input-wrapper">
+              <span>₦</span>
+              <input
+                type="number"
+                id="monthly-budget"
+                min="0"
+                placeholder="50000"
+              />
+            </div>
+
+            <button type="button" class="budget-primary-btn" id="save-budget">
+              Save Budget
+            </button>
+          </div>
+
+          <!-- Add Expense -->
+          <div class="budget-form-card">
+            <div class="budget-form-heading">
+              <div class="budget-form-icon">➕</div>
+
+              <div>
+                <span class="budget-small-label">TRACK SPENDING</span>
+                <h3>Add an Expense</h3>
+              </div>
+            </div>
+
+            <p class="budget-form-description">
+              Record what you spend so your budget stays updated.
+            </p>
+
+            <div class="budget-form-row">
+              <div>
+                <label for="expense-name">Expense</label>
+                <input type="text" id="expense-name" placeholder="e.g. Lunch" />
+              </div>
+
+              <div>
+                <label for="expense-category">Category</label>
+
+                <select id="expense-category">
+                  <option value="food">🍲 Food</option>
+                  <option value="transport">🚌 Transport</option>
+                  <option value="data">📱 Data</option>
+                  <option value="school">📚 School</option>
+                  <option value="accommodation">🏠 Accommodation</option>
+                  <option value="personal">🛍️ Personal</option>
+                  <option value="other">📦 Other</option>
+                </select>
+              </div>
+            </div>
+
+            <label for="expense-amount">Amount</label>
+
+            <div class="budget-input-wrapper">
+              <span>₦</span>
+              <input
+                type="number"
+                id="expense-amount"
+                min="0"
+                placeholder="1500"
+              />
+            </div>
+
+            <button type="button" class="budget-primary-btn" id="add-expense">
+              + Add Expense
+            </button>
+          </div>
+        </div>
+
+        <!-- Spending Breakdown -->
+        <div class="budget-breakdown-card">
+          <div class="budget-section-top">
+            <div>
+              <span class="budget-small-label">WHERE YOUR MONEY GOES</span>
+              <h3>Spending Breakdown</h3>
+            </div>
+
+            <span id="expense-count">0 expenses</span>
+          </div>
+
+          <div id="budget-categories" class="budget-categories">
+            <div class="budget-category">
+              <div class="budget-category-info">
+                <span class="budget-category-icon">🍲</span>
+
+                <div>
+                  <strong>Food</strong>
+                  <span>₦0</span>
+                </div>
+              </div>
+
+              <div class="category-bar">
+                <div style="width: 0%"></div>
+              </div>
+            </div>
+
+            <div class="budget-category">
+              <div class="budget-category-info">
+                <span class="budget-category-icon">🚌</span>
+
+                <div>
+                  <strong>Transport</strong>
+                  <span>₦0</span>
+                </div>
+              </div>
+
+              <div class="category-bar">
+                <div style="width: 0%"></div>
+              </div>
+            </div>
+
+            <div class="budget-category">
+              <div class="budget-category-info">
+                <span class="budget-category-icon">📱</span>
+
+                <div>
+                  <strong>Data</strong>
+                  <span>₦0</span>
+                </div>
+              </div>
+
+              <div class="category-bar">
+                <div style="width: 0%"></div>
+              </div>
+            </div>
+
+            <div class="budget-category">
+              <div class="budget-category-info">
+                <span class="budget-category-icon">📚</span>
+
+                <div>
+                  <strong>School</strong>
+                  <span>₦0</span>
+                </div>
+              </div>
+
+              <div class="category-bar">
+                <div style="width: 0%"></div>
+              </div>
+            </div>
+
+            <div class="budget-category">
+              <div class="budget-category-info">
+                <span class="budget-category-icon">🏠</span>
+
+                <div>
+                  <strong>Accommodation</strong>
+                  <span>₦0</span>
+                </div>
+              </div>
+
+              <div class="category-bar">
+                <div style="width: 0%"></div>
+              </div>
+            </div>
+
+            <div class="budget-category">
+              <div class="budget-category-info">
+                <span class="budget-category-icon">🛍️</span>
+
+                <div>
+                  <strong>Personal</strong>
+                  <span>₦0</span>
+                </div>
+              </div>
+
+              <div class="category-bar">
+                <div style="width: 0%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Recent Expenses + Insight -->
+        <div class="budget-bottom-grid">
+          <div class="recent-expenses-card">
+            <div class="budget-section-top">
+              <div>
+                <span class="budget-small-label">TRANSACTION HISTORY</span>
+                <h3>Recent Expenses</h3>
+              </div>
+            </div>
+
+            <div id="expense-list" class="expense-list"></div>
+
+            <div id="empty-expenses" class="empty-expenses">
+              <span>💳</span>
+              <h4>No expenses yet</h4>
+              <p>Add your first expense above and it will appear here.</p>
+            </div>
+          </div>
+
+          <div class="budget-insight-card">
+            <div class="insight-icon">💡</div>
+
+            <span class="budget-small-label">BUDGET INSIGHT</span>
+
+            <h3 id="budget-insight-title">Start planning your month.</h3>
+
+            <p id="budget-insight-text">
+              Set your monthly budget and start tracking your expenses to see
+              your spending insights here.
+            </p>
+
+            <div class="budget-insight-number">
+              <strong id="insight-remaining">₦0</strong>
+              <span>available</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Reset -->
+        <div class="budget-reset-area">
+          <button type="button" id="reset-budget">Reset Budget Data</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- DATA / INTERNET CALCULATOR -->
+
+    <!-- =========================
+     FACULTY WI-FI DIRECTORY
+========================= -->
+    <section class="wifi-section" id="faculty-wifi">
+      <div class="wifi-container">
+        <div class="wifi-heading">
+          <span class="section-label">CAMPUS CONNECTIVITY</span>
+
+          <h2>
+            KWASU Faculty
+            <span>Wi-Fi Directory.</span>
+          </h2>
+
+          <p>
+            If you find yourself around a KWASU faculty, use this directory to
+            check the faculty's Wi-Fi information and connection details in one
+            convenient place.
+          </p>
+        </div>
+
+        <!-- SEARCH + FILTER -->
+        <div class="wifi-tools">
+          <div class="wifi-search-box">
+            <span>⌕</span>
+
+            <input
+              type="text"
+              id="wifi-search"
+              placeholder="Search for your faculty..."
+              autocomplete="off"
+            />
+
+            <button type="button" id="clear-wifi-search">Clear</button>
+          </div>
+
+          <div class="wifi-filter-box">
+            <label for="wifi-faculty-filter"> Faculty </label>
+
+            <select id="wifi-faculty-filter">
+              <option value="all">All Faculties</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- DIRECTORY HEADER -->
+        <div class="wifi-directory-header">
+          <div>
+            <span class="wifi-directory-label"> FACULTY NETWORKS </span>
+
+            <h3>Find your faculty's connection details</h3>
+          </div>
+
+          <span id="wifi-result-count"> 13 faculties </span>
+        </div>
+
+        <!-- WIFI CARDS -->
+        <div class="wifi-grid" id="wifi-grid"></div>
+
+        <!-- NO RESULTS -->
+        <div class="wifi-no-results" id="wifi-no-results" hidden>
+          <span>📶</span>
+
+          <h3>No faculty found</h3>
+
+          <p>
+            Try searching for another faculty or select "All Faculties" from the
+            filter.
+          </p>
+        </div>
+
+        <!-- INFORMATION NOTE -->
+        <div class="wifi-notice">
+          <div class="wifi-notice-icon">ℹ️</div>
+
+          <div>
+            <strong> About these Wi-Fi details </strong>
+
+            <p>
+              The network names and passwords displayed in this student project
+              are demonstration data created for presentation purposes. They are
+              not official KWASU network credentials.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========================
+     SECTION 4 — CONTRIBUTORS
+========================= -->
+    <section class="contributors-section" id="contributors">
+      <div class="contributors-container">
+        <div class="contributors-heading">
+          <span class="section-label">KWASU COMMUNITY</span>
+
+          <h2>
+            The People Behind
+            <span>KWASU.</span>
+          </h2>
+
+          <p>
+            Discover the people whose leadership, ideas, service and
+            contributions have helped shape Kwara State University and its
+            community.
+          </p>
+        </div>
+
+        <div class="contributors-slider">
+          <div class="contributors-track">
+            <!-- SLIDE 1 -->
+            <div class="contributors-slide active">
+              <article class="contributor-card">
+                <div class="contributor-image">
+                  <img
+                    src="Dr. Abubakar Bukola Saraki.jpg"
+                    alt="Contributor 1"
+                  />
+                </div>
+
+                <div class="contributor-info">
+                  <span class="contributor-category">FOUNDER & VISIONARY</span>
+                  <h3>Dr. Abubakar Bukola Saraki</h3>
+                  <p>
+                    Dr. Abubakar Bukola Saraki is a distinguished Nigerian
+                    medical doctor, former Governor, and 13th Senate
+                    President.As Governor, he served as the Visionary Founder of
+                    Kwara State University, signing its establishment bill into
+                    law in 2008.
+                  </p>
+                </div>
+              </article>
+
+              <article class="contributor-card">
+                <div class="contributor-image">
+                  <img src="Yusuf Umar Danshitta.jpg" alt="Contributor 2" />
+                </div>
+
+                <div class="contributor-info">
+                  <span class="contributor-category">FOUNDER & VISIONARY</span>
+                  <h3>Yusuf Umar Danshitta</h3>
+                  <p>
+                    Yusuf Umar Danshitta is an academic, researcher, and
+                    prominent institutional leader heavily involved with Kwara
+                    State University (KWASU). He represents the rising
+                    generation of student leaders who have transitioned into
+                    vital administrative and governance roles within their alma
+                    mater.
+                  </p>
+                </div>
+              </article>
+
+              <article class="contributor-card">
+                <div class="contributor-image">
+                  <img
+                    src="Professor AbdulRasheed Na'Allah.jpg"
+                    alt="Contributor 3"
+                  />
+                </div>
+
+                <div class="contributor-info">
+                  <span class="contributor-category">FOUNDER & VISIONARY</span>
+                  <h3>Professor AbdulRasheed Na'Allah</h3>
+                  <p>
+                    Abdul Rasheed Na'Allah is a Nigerian academic, educator and
+                    professor who served as the 6th Vice chancellor of
+                    University of Abuja from 2019 until June 2024. Prior to
+                    this, he was the Vice chancellor of Kwara State University
+                    from 2009 to 2019.
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <!-- SLIDE 2 -->
+            <div class="contributors-slide">
+              <article class="contributor-card">
+                <div class="contributor-image">
+                  <img src="Shaykh.jpg" alt="Contributor 4" />
+                </div>
+
+                <div class="contributor-info">
+                  <span class="contributor-category"
+                    >UNIVERSITY LEADERSHIP</span
+                  >
+                  <h3>Sheikh AbdulRahman AbdulRazaq</h3>
+                  <p>
+                    Dr. AbdulRazaq AbdulRaheem provides academic leadership as
+                    the Head of Department for Statistics and Mathematical
+                    Sciences at KWASU
+                  </p>
+                </div>
+              </article>
+
+              <article class="contributor-card">
+                <div class="contributor-image">
+                  <img
+                    src="Dr. Kikelomo Wasilah Sallee.jpg"
+                    alt="Contributor 5"
+                  />
+                </div>
+
+                <div class="contributor-info">
+                  <span class="contributor-category"
+                    >UNIVERSITY LEADERSHIP</span
+                  >
+                  <h3>Dr.Kikelomo Wasilah Sallee</h3>
+                  <p>
+                    Dr. Kikelomo Wasilah Sallee serves as the official
+                    Registrar, Secretary to the University Senate, and Chief
+                    Administrative Officer of KWASU.She directly authorizes and
+                    signs all high-level academic, directorial, and executive
+                    personnel appointments across the university.
+                  </p>
+                </div>
+              </article>
+
+              <article class="contributor-card">
+                <div class="contributor-image">
+                  <img
+                    src="Professor Shehu Usman Adam.jpg"
+                    alt="Contributor 6"
+                  />
+                </div>
+
+                <div class="contributor-info">
+                  <span class="contributor-category"
+                    >UNIVERSITY LEADERSHIP</span
+                  >
+                  <h3>Professor Shehu Usman Adam</h3>
+                  <p>
+                    Professor Shehu Usman Adam serves as the Deputy
+                    Vice-Chancellor (Academic) of Kwara State University,
+                    steering the institution’s core learning policies.He
+                    previously provided pioneering leadership as the first
+                    Acting Dean of the newly formed Faculty of Management and
+                    Social Sciences.
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <!-- SLIDE 3 -->
+            <div class="contributors-slide">
+              <article class="contributor-card">
+                <div class="contributor-image">
+                  <img
+                    src="Professor Abdulsalam Abiodun Salman.jpg"
+                    alt="Contributor 7"
+                  />
+                </div>
+
+                <div class="contributor-info">
+                  <span class="contributor-category">ACADEMIC CONTRIBUTOR</span>
+                  <h3>Professor Abdulsalam Abiodun Salman</h3>
+                  <p>
+                    Professor Abdulsalam Abiodun Salman serves as the official
+                    University Librarian and a vital member of KWASU's principal
+                    executive management team.He spearheaded the successful
+                    listing of the Kwara State University Institutional
+                    Repository (KWASU IR).
+                  </p>
+                </div>
+              </article>
+
+              <article class="contributor-card">
+                <div class="contributor-image">
+                  <img
+                    src="Professor Gbolagade Kazeem Alagbe.jpg"
+                    alt="Contributor 8"
+                  />
+                </div>
+
+                <div class="contributor-info">
+                  <span class="contributor-category">ACADEMIC CONTRIBUTOR</span>
+                  <h3>Professor Gbolagade Kazeem</h3>
+                  <p>
+                    Professor Abdulsalam Abiodun Salman serves as the official
+                    University Librarian and a vital member of KWASU's principal
+                    executive management team.He spearheaded the successful
+                    listing of the Kwara State University Institutional
+                    Repository (KWASU IR) on the African Digital Research
+                    Repositories.
+                  </p>
+                </div>
+              </article>
+
+              <article class="contributor-card">
+                <div class="contributor-image">
+                  <img src="Dr. Bolatito Eunice.jpg" alt="Contributor 9" />
+                </div>
+
+                <div class="contributor-info">
+                  <span class="contributor-category">ACADEMIC CONTRIBUTOR</span>
+                  <h3>Dr. Bolatito Eunice</h3>
+                  <p>
+                    Dr. Bolatito Eunice Olanipekun serves as an expert lecturer
+                    and high-impact scholar within the Department of Chemistry
+                    at KWASU.
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <!-- SLIDE 4 -->
+            <div class="contributors-slide">
+              <article class="contributor-card">
+                <div class="contributor-image">
+                  <img src="taooma.jpg" alt="Contributor 10" />
+                </div>
+
+                <div class="contributor-info">
+                  <span class="contributor-category">KWASU Alumni</span>
+                  <h3>Maryam Apaokagi(Taooma)</h3>
+                  <p>
+                    Maryam Apaokagi (Taaooma) is an esteemed Kwara State
+                    University alumna, a popular award-winning comedian and
+                    filmmaker who graduated with a Bachelor’s degree in Tourism
+                    and Hospitality Management.
+                  </p>
+                </div>
+              </article>
+
+              <article class="contributor-card">
+                <div class="contributor-image">
+                  <img src="saheed balogun.jpg" alt="Contributor 11" />
+                </div>
+
+                <div class="contributor-info">
+                  <span class="contributor-category">KWASU Alumni</span>
+                  <h3>Saheed Balogun</h3>
+                  <p>
+                    A popular Film-maker And producer,and also a Alumn of Kwara
+                    State University
+                  </p>
+                </div>
+              </article>
+
+              <article class="contributor-card">
+                <div class="contributor-image">
+                  <img
+                    src="Mr. Aliyu Uthman Abdulkadir.jpg"
+                    alt="Contributor 12"
+                  />
+                </div>
+
+                <div class="contributor-info">
+                  <span class="contributor-category">KWASU Alumni</span>
+                  <h3>Mr. Aliyu Uthman Abdulkadir</h3>
+                  <p>
+                    He is a highly prominent public figure and a person of
+                    significant worth at Kwara State University (KWASU). He
+                    serves as both a key academic and an administrator within
+                    the institution.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- SLIDER CONTROLS -->
+          <div class="contributors-controls">
+            <button
+              type="button"
+              class="contributors-arrow"
+              id="contributors-prev"
+              aria-label="Previous contributors"
+            >
+              ←
+            </button>
+
+            <div class="contributors-dots">
+              <button
+                type="button"
+                class="contributor-dot active"
+                data-slide="0"
+              ></button>
+              <button
+                type="button"
+                class="contributor-dot"
+                data-slide="1"
+              ></button>
+              <button
+                type="button"
+                class="contributor-dot"
+                data-slide="2"
+              ></button>
+              <button
+                type="button"
+                class="contributor-dot"
+                data-slide="3"
+              ></button>
+            </div>
+
+            <button
+              type="button"
+              class="contributors-arrow"
+              id="contributors-next"
+              aria-label="Next contributors"
+            >
+              →
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+     FOOTER
+========================= -->
+    <footer class="site-footer" id="contact">
+      <div class="footer-container">
+        <!-- FOOTER TOP -->
+        <div class="footer-top">
+          <!-- BRAND -->
+          <div class="footer-brand">
+            <a href="#home" class="footer-logo">
+              <img src="kwasu new.png" alt="KWASU Student Companion" />
+            </a>
+
+            <p class="footer-description">
+              A student-focused platform designed to bring academic tools,
+              campus information, useful resources and everyday student
+              utilities together in one convenient place.
+            </p>
+
+            <div class="footer-campus">
+              <span class="footer-campus-icon">📍</span>
+
+              <div>
+                <strong>Built for KWASU Students</strong>
+                <span>Malete, Kwara State, Nigeria</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- EXPLORE -->
+          <div class="footer-column">
+            <h3>Explore</h3>
+
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#dashboard">Dashboard</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contributors">Contributors</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- STUDENT TOOLS -->
+          <div class="footer-column">
+            <h3>Student Tools</h3>
+
+            <ul>
+              <li><a href="#academic">Courses & GPA</a></li>
+              <li><a href="#study-timer">Study Timer</a></li>
+              <li><a href="#academic-calendar">Academic Calendar</a></li>
+              <li><a href="#student-budget">Student Budget</a></li>
+              <li><a href="#faculty-directory">Faculty Directory</a></li>
+              <li><a href="#faculty-wifi">Faculty Wi-Fi</a></li>
+            </ul>
+          </div>
+
+          <!-- CAMPUS GUIDE -->
+          <div class="footer-column">
+            <h3>Campus Guide</h3>
+
+            <ul>
+              <li><a href="#campus-guide">Campus Guide</a></li>
+              <li><a href="#campus-guide">Campus Map</a></li>
+              <li><a href="#campus-guide">Library</a></li>
+              <li><a href="#campus-guide">ICT Centre</a></li>
+              <li><a href="#campus-guide">Medical Centre</a></li>
+              <li><a href="#campus-guide">Campus Locations</a></li>
+            </ul>
+          </div>
+
+          <!-- KWASU -->
+          <div class="footer-column">
+            <h3>KWASU</h3>
+
+            <ul>
+              <li><a href="#about">About KWASU</a></li>
+              <li><a href="#academic">Academic Hub</a></li>
+              <li><a href="#faculty-directory">Faculties & Departments</a></li>
+              <li><a href="#important-contacts">Important Contacts</a></li>
+              <li><a href="#contributors">KWASU Contributors</a></li>
+              <li><a href="#faculty-wifi">Connectivity</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- FOOTER FEATURE STRIP -->
+        <div class="footer-feature-strip">
+          <div class="footer-feature">
+            <span>🎓</span>
+
+            <div>
+              <strong>Academic Support</strong>
+              <p>Tools designed around student needs.</p>
+            </div>
+          </div>
+
+          <div class="footer-feature">
+            <span>📍</span>
+
+            <div>
+              <strong>Campus Information</strong>
+              <p>Find useful places around KWASU.</p>
+            </div>
+          </div>
+
+          <div class="footer-feature">
+            <span>📶</span>
+
+            <div>
+              <strong>Stay Connected</strong>
+              <p>Explore faculty connectivity information.</p>
+            </div>
+          </div>
+
+          <div class="footer-feature">
+            <span>⏱️</span>
+
+            <div>
+              <strong>Study Smarter</strong>
+              <p>Stay focused and manage your study time.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- FOOTER BOTTOM -->
+        <div class="footer-bottom">
+          <div class="footer-copyright">
+            <span> © 2026 KWASU Student Companion. </span>
+
+            <span> Built as a student project for KWASU. </span>
+          </div>
+
+          <div class="footer-bottom-links">
+            <a href="#home"> Back to top ↑ </a>
+
+            <a href="#contact"> Contact </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
